@@ -1,0 +1,6 @@
+[submodule "pck/fyne.io/fyne"]
+	path = pck/fyne.io/fyne
+	url = https://github.com/fyne-io/fyne.git
+[submodule "pck/goadb/adb"]
+	path = pck/goadb/adb
+	url = https://github.com/zach-klippenstein/goadb.git
