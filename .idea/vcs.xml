@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/zserge/lorca" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/golang.org/x/net" vcs="Git" />
   </component>
 </project>

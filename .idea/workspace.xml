@@ -19,59 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d619f855-6068-48fb-afa4-6c9fa5fb844d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GoRemote/pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/pkg/windows_amd64/github.com/zserge/lorca.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/.github/issue_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/.github/workflows/ci.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/dll/x64/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/dll/x64/webview.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/dll/x86/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/dll/x86/webview.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/main.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/WebView2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/build.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/.signature.p7s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/Microsoft.Web.WebView2.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/WebView2.idl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/WebView2.tlb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/[Content_Types].xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/_rels/.rels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/Microsoft.Web.WebView2.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/arm64/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/Microsoft.Web.WebView2.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/arm64/WebView2Guid.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/arm64/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/arm64/WebView2Loader.dll.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/include/WebView2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/include/WebView2EnvironmentOptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x64/WebView2Guid.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x64/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x64/WebView2Loader.dll.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x86/WebView2Guid.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x86/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/native/x86/WebView2Loader.dll.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/x64/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/build/x86/WebView2Loader.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/script/microsoft.web.webview2.0.9.488/package/services/metadata/core-properties/c7f0a730736d49398070dd725ddecb6a.psmdcp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/webview.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/webview.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/webview.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/webview_test.cc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/webview/webview/webview_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/zserge/lorca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/golang.org/x/net" afterDir="false" />
+    <list default="true" id="d619f855-6068-48fb-afa4-6c9fa5fb844d" name="Default Changelist" comment="added webView and Lorca">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoReceive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoRemote/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoRemote/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,22 +146,22 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="778" y="211" key="Github.UntrackedFilesDialog/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603558723735" />
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603660980838">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603668314446">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603660980838" />
-    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603660980838">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603668314446" />
+    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603668314446">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603660980838" />
-    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603660980838">
+    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603668314446" />
+    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603668314446">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603660980838" />
-    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603660980838">
+    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603668314446" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603668314446">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603660980838" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603668314446" />
     <state x="533" y="241" key="SettingsEditor" timestamp="1603659085771">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
