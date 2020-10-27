@@ -2,12 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/alecthomas/template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/alecthomas/units" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/cheggaaa/pb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/davecgh/go-spew" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/gorilla/websocket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/mattn/go-runewidth" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/pmezard/go-difflib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/stretchr/testify" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/zserge/lorca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/gopkg.in/alecthomas/kingpin.v2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/gopkg.in/yaml.v3" vcs="Git" />
   </component>
 </project>

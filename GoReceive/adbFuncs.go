@@ -11,12 +11,6 @@ var (
 	client *adb.Adb
 )
 
-type device struct {
-	serial string
-	ip     string
-	name   string
-}
-
 func InitAdb() {
 	var err error
 	client, err = adb.New()
@@ -34,7 +28,7 @@ func InitAdb() {
 
 }
 
-func ListDevices() {
+func ListDevices() []*adb.DeviceInfo {
 	devices, err := client.ListDevices()
 	if err != nil {
 		log.Fatal(err)
@@ -43,4 +37,5 @@ func ListDevices() {
 	for _, device := range devices {
 		fmt.Printf("\t%+v\n", *device)
 	}
+	return devices
 }
