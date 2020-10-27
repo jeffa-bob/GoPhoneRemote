@@ -20,24 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d619f855-6068-48fb-afa4-6c9fa5fb844d" name="Default Changelist" comment="some changes">
-      <change afterPath="$PROJECT_DIR$/GoReceive/adbFuncs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoReceive/pages.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoReceive/pages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoRemote/GoRemote.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/bin/autobahn.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/bin/chat.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/bin/command.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/bin/filewatch.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/pkg/windows_amd64/github.com/gorilla/websocket.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/davecgh/go-spew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/gorilla/websocket" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/pmezard/go-difflib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/github.com/stretchr/testify" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pck/src/gopkg.in/yaml.v3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoReceive/GoReceive.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoReceive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoRemote/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoRemote/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pck/src/golang.org/x/net" beforeDir="false" afterPath="$PROJECT_DIR$/pck/src/golang.org/x/net" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoReceive/pages.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/pages.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoReceive/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/pages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603673980273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some changes">
+      <created>1603753498302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603753498302</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,34 +194,34 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="778" y="211" key="Github.UntrackedFilesDialog/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603558723735" />
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603753328534">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603762470557">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753328534" />
-    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603753328534">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
+    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603762470557">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753328534" />
-    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603753328534">
+    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
+    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603762470557">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753328534" />
-    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603753328534">
+    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603762470557">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753328534" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
     <state x="533" y="241" key="SettingsEditor" timestamp="1603659085771">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="533" y="241" key="SettingsEditor/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603659085771" />
-    <state x="617" y="325" key="Vcs.Push.Dialog.v2" timestamp="1603674009667">
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2" timestamp="1603753502144">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="617" y="325" key="Vcs.Push.Dialog.v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603674009667" />
-    <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603751030908">
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753502144" />
+    <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603762210694">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603751030908" />
+    <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762210694" />
     <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1603659078165">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>

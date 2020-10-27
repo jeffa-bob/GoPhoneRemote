@@ -11,17 +11,32 @@ const (
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
-<body>
-    <div class="mdl-textfield mdl-js-textfield getmdl-select">
-        <input type="text" value="" class="mdl-textfield__input" id="devicebox" readonly>
-        <input type="hidden" value="" name="devicebox">
-        <label for="devicebox" class="mdl-textfield__label">Device</label>
-        <ul for="devicebox" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
-            <li class="mdl-menu__item" data-val="DEU">Germany</li>
-            <li class="mdl-menu__item" data-val="BLR">Belarus</li>
-            <li class="mdl-menu__item" data-val="RUS">Russia</li>
-        </ul>
-    </div>
+<body><style>
+.demo-list-icon {
+  width: 300px;
+}
+</style>
+
+<ul class="demo-list-icon mdl-list">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">person</i>
+    Bryan Cranston
+</span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">person</i>
+    Aaron Paul
+  </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+    <i class="material-icons mdl-list__item-icon">person</i>
+    Bob Odenkirk
+  </span>
+  </li>
+</ul>
     <form action="#">
         <div style="margin-left: 2%" class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text"

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/davecgh/go-spew" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/gorilla/websocket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/pmezard/go-difflib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/github.com/stretchr/testify" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/github.com/zserge/lorca" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/pck/src/golang.org/x/net" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pck/src/gopkg.in/yaml.v3" vcs="Git" />
   </component>
 </project>
