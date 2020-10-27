@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/zserge/lorca"
 	"net/url"
-	//"github.com/webview/webview"
+	"github.com/webview/webview"
 )
 
 func lorcaMain() {
@@ -14,11 +14,11 @@ func lorcaMain() {
 }
 
 func main() {
-	//webviewMain()
-	lorcaMain()
+	webviewMain()
+	//lorcaMain()
 }
 
-/*
+
 func webviewMain(){
     w := webview.New(true)
     defer w.Destroy()
@@ -26,4 +26,4 @@ func webviewMain(){
     w.Navigate("data:text/html,"+url.PathEscape(formhtml))
 
     w.Run()
-}*/
+}

@@ -22,7 +22,7 @@ func InitAdb() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Starting server…")
+	//fmt.Println("Starting server…")
 	client.StartServer()
 
 	serverVersion, err := client.ServerVersion()
