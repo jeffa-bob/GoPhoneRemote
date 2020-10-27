@@ -15,6 +15,7 @@ func lorcaMain() {
 
 func main() {
 	InitAdb()
+	ListDevices()
 	//webviewMain()
 	lorcaMain()
 }

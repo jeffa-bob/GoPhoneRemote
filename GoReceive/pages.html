@@ -13,8 +13,8 @@
             width: 300px;
         }
     </style>
-    <div style="max-height: 80%; overflow-x: auto">
-    <ul class="demo-list-icon mdl-list">
+    <div style="max-height: 40%; width: fit-content; overflow-x: auto">
+    <ul id="devicelist" class="demo-list-icon mdl-list">
         <li class="mdl-list__item">
             <span class="mdl-list__item-primary-content">
                 <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
@@ -62,6 +62,22 @@
                 return false;
             }
 
+        }
+
+        function AddItemToDeviceList(name,id){
+            var list = document.getElementById("devicelist");
+            var num = list.children.length+1;
+            var appendlist = `
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-${num}">
+                    <input type="radio" id="option-${num}" class="mdl-radio__button" name="devices" value="${id}">
+                </label>
+                ${name}
+            </span>
+        </li>
+`;
+            list.insertAdjacentHTML('beforeend',appendlist);
         }
     </script>
 </body>

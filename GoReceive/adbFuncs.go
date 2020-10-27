@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/zach-klippenstein/goadb"
 	"log"
+	//"runtime/debug"
 )
 
 var (
@@ -11,7 +12,7 @@ var (
 )
 
 type device struct {
-	device string
+	serial string
 	ip     string
 	name   string
 }
@@ -31,4 +32,15 @@ func InitAdb() {
 	}
 	fmt.Println("Server version:", serverVersion)
 
+}
+
+func ListDevices() {
+	devices, err := client.ListDevices()
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("Devices:")
+	for _, device := range devices {
+		fmt.Printf("\t%+v\n", *device)
+	}
 }

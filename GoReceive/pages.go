@@ -1,8 +1,7 @@
 package main
 
 const (
-	startform = `
-<html>
+	startform = `<html>
 
 <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -11,32 +10,40 @@ const (
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
-<body><style>
-.demo-list-icon {
-  width: 300px;
-}
-</style>
-
-<ul class="demo-list-icon mdl-list">
-  <li class="mdl-list__item">
-    <span class="mdl-list__item-primary-content">
-    <i class="material-icons mdl-list__item-icon">person</i>
-    Bryan Cranston
-</span>
-  </li>
-  <li class="mdl-list__item">
-    <span class="mdl-list__item-primary-content">
-    <i class="material-icons mdl-list__item-icon">person</i>
-    Aaron Paul
-  </span>
-  </li>
-  <li class="mdl-list__item">
-    <span class="mdl-list__item-primary-content">
-    <i class="material-icons mdl-list__item-icon">person</i>
-    Bob Odenkirk
-  </span>
-  </li>
-</ul>
+<body>
+    <style>
+        .demo-list-icon {
+            width: 300px;
+        }
+    </style>
+    <div style="max-height: 40%; width: fit-content; overflow-x: auto">
+    <ul id="devicelist" class="demo-list-icon mdl-list">
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                    <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1">
+                </label>
+                Bryan Cranston
+            </span>
+        </li>
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                    <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                </label>
+                Aaron Paul
+            </span>
+        </li>
+        <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+                    <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3">
+                </label>
+                Bob Odenkirk
+            </span>
+        </li>
+    </ul>
+</div>
     <form action="#">
         <div style="margin-left: 2%" class="mdl-textfield mdl-js-textfield">
             <input class="mdl-textfield__input" type="text"
@@ -58,6 +65,22 @@ const (
                 return false;
             }
 
+        }
+
+        function AddItemToDeviceList(name,id){
+            var list = document.getElementById("devicelist");
+            var num = list.children.length+1;
+            var appendlist = ` + "`" + `
+<li class="mdl-list__item">
+<span class="mdl-list__item-primary-content">
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-${num}">
+<input type="radio" id="option-${num}" class="mdl-radio__button" name="devices" value="${id}">
+</label>
+${name}
+</span>
+</li>
+` + "`" + `;
+            list.insertAdjacentHTML('beforeend',appendlist);
         }
     </script>
 </body>

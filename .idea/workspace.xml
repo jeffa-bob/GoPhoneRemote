@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d619f855-6068-48fb-afa4-6c9fa5fb844d" name="Default Changelist" comment="some changes">
       <change afterPath="$PROJECT_DIR$/GoReceive/GoReceive.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoReceive/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoReceive/adbFuncs.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/adbFuncs.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoReceive/pages.go" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/pages.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GoReceive/pages.html" beforeDir="false" afterPath="$PROJECT_DIR$/GoReceive/pages.html" afterDir="false" />
     </list>
@@ -149,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603753498302</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some changes">
+      <created>1603763418829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603763418829</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,10 +184,10 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="479" y="251" width="1089" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753126915" />
-    <state x="778" y="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603658523679">
+    <state x="778" y="386" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603822800028">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="778" y="386" key="#com.intellij.fileTypes.FileTypeChooser/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603658523679" />
+    <state x="778" y="386" key="#com.intellij.fileTypes.FileTypeChooser/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603822800028" />
     <state x="804" y="350" key="FileChooserDialogImpl" timestamp="1603753123206">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
@@ -194,37 +200,37 @@
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="778" y="211" key="Github.UntrackedFilesDialog/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603558723735" />
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603762470557">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom" timestamp="1603763460698">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
-    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603762470557">
+    <state width="2007" height="300" key="GridCell.Tab.0.bottom/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603763460698" />
+    <state width="2007" height="300" key="GridCell.Tab.0.center" timestamp="1603763460698">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
-    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603762470557">
+    <state width="2007" height="300" key="GridCell.Tab.0.center/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603763460698" />
+    <state width="2007" height="300" key="GridCell.Tab.0.left" timestamp="1603763460698">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
-    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603762470557">
+    <state width="2007" height="300" key="GridCell.Tab.0.left/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603763460698" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right" timestamp="1603763460698">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762470557" />
+    <state width="2007" height="300" key="GridCell.Tab.0.right/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603763460698" />
     <state x="533" y="241" key="SettingsEditor" timestamp="1603659085771">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="533" y="241" key="SettingsEditor/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603659085771" />
-    <state x="617" y="325" key="Vcs.Push.Dialog.v2" timestamp="1603753502144">
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2" timestamp="1603763430551">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="617" y="325" key="Vcs.Push.Dialog.v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603753502144" />
+    <state x="617" y="325" key="Vcs.Push.Dialog.v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603763430551" />
     <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603762210694">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
     <state x="842" y="506" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603762210694" />
-    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1603659078165">
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup" timestamp="1603819478135">
       <screen x="0" y="40" width="2048" height="1112" />
     </state>
-    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603659078165" />
+    <state x="687" y="283" width="672" height="678" key="search.everywhere.popup/0.40.2048.1112/2560.40.1920.1040@0.40.2048.1112" timestamp="1603819478135" />
   </component>
 </project>
