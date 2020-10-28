@@ -11,6 +11,16 @@ const (
     </head>
     
     <body>
+	<script>
+        function submit(){
+            var port = document.getElementById("portinput");
+            var deviceserial = document.querySelector('input[name="devices"]:checked').value;
+            if(!port.checkValidity() || deviceserial==null){
+                return;
+            }
+            StartServer(deviceserial,parseInt(port.value));
+        }
+</script>
         <style>
             .demo-list-icon {
                 width: 300px;
@@ -30,37 +40,33 @@ const (
             </ul>
         </div>
         <div style="flex: 0 1 auto;">
-        <form action="#">
-            <div style="margin: 2%; width: 96%;" class="mdl-textfield mdl-js-textfield">
-                <input class="mdl-textfield__input" type="text"
-                    pattern="^([0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$"
-                    id="portinput">
-                <label class="mdl-textfield__label" for="portinput">Port</label>
-                <span class="mdl-textfield__error">Input is not a Port!</span>
-            </div>
-        </form>
-        <button onclick="submit" style="margin: 2%; width: 96%;"
+			<form action="#">
+                <div style="margin: 2%; width: 96%; display: flex">
+                <div style="flex-grow: 1" class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text"
+                        pattern="^([0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$"
+                        id="portinput">
+                    <label class="mdl-textfield__label" for="portinput">Port</label>
+                    <span class="mdl-textfield__error">Input is not a Port!</span>
+                </div>
+                <button onclick="GetDevices" style=" width: auto; margin-top: 2%" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored">
+                    <i class="material-icons">cached</i>
+                </button></div>
+            </form>
+        </div>
+        <button onclick="submit()" style="margin: 2%; width: 96%;"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
             Submit
         </button>
         </div>
         </div>
         <script>
-            function submit() {
-                var ip = document.getElementById("ipinput");
-                var port = document.getElementById("portinput");
-                if (!ip.checkValidity() || !port.checkValidity()) {
-                    return false;
-                }
-    
-            }
-    
             function AddItemToDeviceList(name, id) {
                 var list = document.getElementById("devicelist");
                 var num = document.getElementsByName("devices").length;
                 num += 1;
                 var appendlist =` + "`" + `
-            <li class="mdl-list__item">
+            <li style="width: 98%" class="mdl-list__item">
                 <span class="mdl-list__item-primary-content">
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-${num}">
                         <input type="radio" id="option-${num}" class="mdl-radio__button" name="devices" value="${id}">
@@ -72,12 +78,18 @@ const (
                 list.insertAdjacentHTML('beforeend', appendlist);
             }
         </script><script>
+        function GetDevices(){
         ListDevices().then((devices)=> {
         //console.log(devices);
         devices.forEach(element => {
             AddItemToDeviceList(element.Model, element.Serial);
-        });
-        });
+            });
+        if (document.getElementById("devicelist").childElementCount == 0){
+                document.getElementById("devicelist").insertAdjacentHTML('beforeend', '<label style="text-align: center;" class="mdl-textfield__label">No Devices Found</label>');
+            }
+        });}
+        GetDevices();
+    </script
     </script>
     </body>
     
