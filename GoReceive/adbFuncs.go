@@ -29,8 +29,11 @@ func InitAdb() {
 */
 }
 
-func ConnectDevice(serial string){
-	client.Device().RunCommand()
+func SelectDevice(serial string){
+	for devices, _ : range client.ListDevices(){
+		devices.
+	}
+	
 }
 
 func ListDevices() []*adb.DeviceInfo {
