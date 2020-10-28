@@ -9,6 +9,7 @@ import (
 
 var (
 	client *adb.Adb
+	device *adb.DeviceDescriptor
 )
 
 func InitAdb() {
@@ -26,6 +27,10 @@ func InitAdb() {
 	}
 	//fmt.Println("Server version:", serverVersion)
 */
+}
+
+func ConnectDevice(serial string){
+	client.Device().RunCommand()
 }
 
 func ListDevices() []*adb.DeviceInfo {
