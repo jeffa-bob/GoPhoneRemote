@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="form" class="body">
     <style>
         .demo-list-icon {
             width: 300px;
@@ -40,7 +41,7 @@
                 </button></div>
             </form>
         </div>
-            <button onclick="submit" style="margin-left: 2%; width: 96%;"
+            <button onclick="submit()" style="margin-left: 2%; width: 96%;"
                 class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                 Submit
             </button>
@@ -95,6 +96,17 @@
             StartServer(deviceserial,port)
         }
     </script>
+    </div>
+    <div id="passshow" style="display: none;" class="body">
+        <script>
+            function switchpage(){
+                document.getElementById("passshow").style.display = "block";
+                document.getElementById("form").style.display = "show";
+                GetTemp().then((x)=>{document.getElementById("password").innerText=x});}
+        </script>
+        <label id="password" style="position: center;">
+        
+        </label>
 </body>
 
 </html>

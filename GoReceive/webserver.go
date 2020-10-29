@@ -6,6 +6,9 @@ import (
 )
 
 var temp string
+func GetTemp()string{
+	return temp
+}
 
 func GenerateCode() string {
 	temp = strconv.FormatInt(rand.Int63(), 10)

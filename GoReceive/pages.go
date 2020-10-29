@@ -11,6 +11,8 @@ const (
     </head>
     
     <body>
+    <div id="form" class="body">
+
 	<script>
         function submit(){
             var port = document.getElementById("portinput");
@@ -19,6 +21,7 @@ const (
                 return;
             }
             StartServer(deviceserial,parseInt(port.value));
+            switchpage();
         }
 </script>
         <style>
@@ -91,8 +94,20 @@ const (
         GetDevices();
     </script
     </script>
+    </div>
+    <div id="passshow" style="display: none;" class="body">
+        <script>
+            function switchpage(){
+                document.getElementById("passshow").style.display = "block";
+                document.getElementById("form").style.display = "show";
+                GetTemp().then((x)=>{document.getElementById("password").innerText=x});}
+        </script>
+        <label id="password" style="position: center;">
+        
+        </label>
     </body>
     
     </html>
 `
+
 )

@@ -1,10 +1,12 @@
 package main
 
 import (
-	//"github.com/webview/webview"
+	"github.com/webview/webview"
 	"github.com/zserge/lorca"
 	"net/url"
 )
+
+var port int32;
 
 func lorcaMain() {
 	// Create UI with data URI
@@ -17,32 +19,36 @@ func lorcaMain() {
 	ui.Bind("ListDevices", ListDevices)
 	ui.Bind("StartServer", StartServer)
 	ui.Bind("TapSpot", TapSpot)
-
+	ui.Bind("GetTemp", GetTemp)
 	<-ui.Done()
 }
 
 func main() {
 	InitAdb()
 	//ListDevices()
-	//webviewMain()
-	lorcaMain()
+	webviewMain()
+	// lorcaMain()
 }
 
-/*
+
 func webviewMain() {
-	w := webview.New(true)
-	defer w.Destroy()
-	w.SetTitle("GoPhoneRemote")
-	w.SetSize(310, 200, webview.HintNone)
-	w.Navigate("data:text/html," + url.PathEscape(startform))
+	ui := webview.New(true)
+	defer ui.Destroy()
+	ui.SetTitle("GoPhoneRemote")
+	ui.SetSize(310, 200, webview.HintNone)
+	ui.Navigate("data:text/html," + url.PathEscape(startform))
 
-	w.Bind("ListDevices", ListDevices)
-	w.Bind("StartServer", StartServer)
+	ui.Bind("ListDevices", ListDevices)
+	ui.Bind("StartServer", StartServer)
+	ui.Bind("TapSpot", TapSpot)
+	ui.Bind("GetTemp", GetTemp)
 
-	w.Run()
-}*/
+	ui.Run()
+}
 
-func StartServer(serial string, port int32) {
+func StartServer(serial string, selport int32) {
+	port = selport
+	GenerateCode()
 	SelectDevice(serial)
-	TapSpot(2560/2, 1600/2)
+	//TapSpot(2560/2, 1600/2)
 }

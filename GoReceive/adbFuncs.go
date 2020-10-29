@@ -36,8 +36,8 @@ func SelectDevice(serial string) {
 }
 
 func TapSpot(x int64, y int64) {
-	a, err := device.RunCommand("input touchscreen tap " + strconv.FormatInt(x, 10) + " " + strconv.FormatInt(y, 10))
-	println(a)
+	_, err := device.RunCommand("input touchscreen tap " + strconv.FormatInt(x, 10) + " " + strconv.FormatInt(y, 10))
+	//println(a)
 	if err != nil {
 		log.Fatal(err)
 	}
